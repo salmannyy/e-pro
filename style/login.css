@@ -1,0 +1,88 @@
+
+
+  
+   .btn1{
+      padding: 14px 26px;
+      background: #fff;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    
+      
+  }
+  /* navbar-ends  */
+  
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+
+.main15{
+    padding: 250px 0;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  }
+  
+  
+ 
+
+
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 40px 26px;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+}
+
+
+.login_form h1 {
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.login_form p {
+    margin-top: 0;
+    margin-bottom: 26px;
+}
+
+
+.login_form input {
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 30px;
+}
+
+.login_form input:focus {
+    outline: none;
+    border-color: #fff;
+}
+
+.login_form button {
+    background: linear-gradient(45deg, #ff0d45, #ff01eb);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
